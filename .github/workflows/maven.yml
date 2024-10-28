@@ -53,4 +53,4 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.SSH_PORT }}
         script_stop: true
-        script: "./2joping-gateway/startup.sh"
+        script: "./2joping-eureka/startup.sh"
